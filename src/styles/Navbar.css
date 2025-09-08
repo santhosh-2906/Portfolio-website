@@ -1,0 +1,102 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0d0d1f;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo styling */
+.logo .name {
+  font-family: "Courier New", monospace;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #5eead4;
+}
+.logo .highlight {
+  color: #38bdf8;
+}
+.logo .cursor {
+  color: #a78bfa;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: 0D1B2A;
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #38bdf8;
+}
+
+.nav-index {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  margin-right: 5px;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    flex-direction: column;
+    background: #0d0d1f;
+    width: 200px;
+    padding: 20px;
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+.nav-links li a.active {
+  color: #5eead4;
+  border-bottom: 2px solid #5eead4;
+}

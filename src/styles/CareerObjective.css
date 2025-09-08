@@ -1,0 +1,20 @@
+.career-section {
+  background: #0d1b2a; /* same dark navy as other sections */
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.career-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #38bdf8; /* cyan like other section titles */
+}
+
+.career-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #cbd5e1;
+}
