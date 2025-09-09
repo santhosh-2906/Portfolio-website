@@ -7,8 +7,8 @@ const CareerObjective = () => {
       <h2 className="career-title">// Career Objective</h2>
       <div className="container">
         <p className="career-text">
-          Aspiring Full Stack Developer with a passion for building dynamic web applications. Since December 2024, I have been dedicated to learning <b>Python (Flask)</b>, <b>React</b>, <b>MySQL</b>, and modern web development through Udemy and Placement Point Solutions courses. I have already built practical projects like a <b>Theatre Ticket Booking System</b> and a <b>CookBook app</b>, gaining hands-on experience in CRUD operations, authentication, and responsive UI design. I am eager to contribute my skills to real-world projects and grow as a Python Full Stack Developer.
-        </p>
+          <b>Full Stack Developer</b> skilled in building dynamic and scalable web applications. Experienced with <b>Python (Flask)</b>, <b>React</b>, and <b>MySQL</b>, with a strong foundation in modern web development. Developed projects such as a <b>Theatre Ticket Booking System</b> and a <b>CookBook app</b>, showcasing expertise in <b>CRUD operations</b>, <b>authentication</b>, and <b>responsive UI design</b>. Continuously enhancing my technical expertise through structured learning and hands-on projects, with a focus on delivering high-quality, maintainable, and scalable applications.
+          </p>
       </div>
     </section>
   );

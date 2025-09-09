@@ -1,12 +1,30 @@
-# React + Vite
+Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, built to showcase my skills, projects, and career aspirations as a Python Full Stack Developer.
+It highlights my technical expertise, practical projects, and provides direct ways to connect with me.
 
-Currently, two official plugins are available:
+ Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Career Objective – My journey into full stack development and future aspirations.
 
-## Expanding the ESLint configuration
+ Expertise – Python (Flask), React, MySQL, Bootstrap, REST APIs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Projects –
+
+  Theatre Ticket Booking System – Full-stack app with seat booking, snack orders, and admin dashboard.
+
+  CookBook App – Recipe management with timers, CRUD, and responsive design.
+
+  Contact Section – Email, GitHub, LinkedIn for professional networking.
+
+  Responsive UI – Works across devices with a clean design.
+
+ Tech Stack
+
+    Frontend: React (Vite), Bootstrap, Custom CSS
+
+    Backend (Projects): Python (Flask), MySQL
+
+    Tools: GitHub, VS Code
+
+Deployment: Vercel / GitHub Pages

@@ -10,12 +10,9 @@ const Hero = () => {
         Full Stack Developer | Python | Flask | React | MySQL
       </p>
 
-      {/* Tech Stack Title */}
       <h5 className="tech-title mt-4">Tech Stack</h5>
 
-      {/* Tech stack logos */}
       <div className="hero-logos d-flex flex-wrap justify-content-center mt-3">
-        {/* React */}
         <div className="logo-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -26,7 +23,6 @@ const Hero = () => {
           <p>React</p>
         </div>
 
-        {/* Python */}
         <div className="logo-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -37,7 +33,6 @@ const Hero = () => {
           <p>Python</p>
         </div>
 
-        {/* Flask */}
         <div className="logo-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
@@ -48,7 +43,6 @@ const Hero = () => {
           <p>Flask</p>
         </div>
 
-        {/* MySQL */}
         <div className="logo-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
@@ -59,7 +53,6 @@ const Hero = () => {
           <p>MySQL</p>
         </div>
 
-        {/* Bootstrap */}
         <div className="logo-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
@@ -70,7 +63,6 @@ const Hero = () => {
           <p>Bootstrap</p>
         </div>
 
-        {/* GitHub */}
         <div className="logo-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
@@ -81,8 +73,7 @@ const Hero = () => {
           <p>GitHub</p>
         </div>
       </div>
-
-      {/* Scroll down indicator */}
+    
       <div className="scroll-indicator mt-5">
         <span></span>
       </div>
