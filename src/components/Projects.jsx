@@ -21,9 +21,9 @@ const projects = [
     github: "https://github.com/santhosh-2906/cookbook_frontend",
   },
   {
-    title: "📌 Third Project (Placeholder)",
+    title: "📌 To-do App",
     description:
-      "Describe your third project here. What problem does it solve? What tech stack did you use? You can update this anytime.",
+      "A simple task manager project with crud operations.",
     image: "/assets/project3.png",
     liveDemo: "#",
     github: "#",
